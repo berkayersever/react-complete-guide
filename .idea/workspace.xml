@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0afaf26-4005-460c-9fdf-c63df0488d5d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/WithClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/WithClass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="86" column="40" lean-forward="true" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
+            <state relative-caret-position="100">
+              <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -50,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WithClass.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WithClass.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hoc/WithClass.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
@@ -164,8 +164,8 @@
         <option value="$PROJECT_DIR$/src/components/Persons/Persons.js" />
         <option value="$PROJECT_DIR$/src/hoc/Auxiliary.js" />
         <option value="$PROJECT_DIR$/src/components/Persons/Person/Person.js" />
-        <option value="$PROJECT_DIR$/src/containers/App.js" />
         <option value="$PROJECT_DIR$/src/hoc/WithClass.js" />
+        <option value="$PROJECT_DIR$/src/containers/App.js" />
       </list>
     </option>
   </component>
@@ -308,7 +308,7 @@
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
       <workItem from="1555329758596" duration="54000" />
-      <workItem from="1555606902939" duration="16444000" />
+      <workItem from="1555606902939" duration="16553000" />
     </task>
     <task id="LOCAL-00157" summary="Added useEffect() to Cockpit.js">
       <created>1555263288895</created>
@@ -653,11 +653,11 @@
       <option name="project" value="LOCAL" />
       <updated>1555875249994</updated>
     </task>
-    <option name="localTasksCounter" value="206" />
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90056000" />
+    <option name="totallyTimeSpent" value="90165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -748,7 +748,6 @@
     <MESSAGE value="Create Auxiliary.js" />
     <MESSAGE value="Initialized Auxiliary.js" />
     <MESSAGE value="Exported aux." />
-    <MESSAGE value="Minor change." />
     <MESSAGE value="Removed the import statement." />
     <MESSAGE value="Replaced Aux with Fragment." />
     <MESSAGE value="Reverted back to Aux." />
@@ -758,7 +757,8 @@
     <MESSAGE value="Imported WithClass to App.js" />
     <MESSAGE value="Replaced div with WithClass." />
     <MESSAGE value="Replaced className with classes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Replaced className with classes." />
+    <MESSAGE value="Minor change." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor change." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
@@ -1063,20 +1063,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="86" column="40" lean-forward="true" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hoc/WithClass.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
