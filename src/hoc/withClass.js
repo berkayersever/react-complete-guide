@@ -1,9 +1,9 @@
 import React from 'react';
 
-const withClass = (WrappedComponent, className) => {
+const withClass = (WrappedComponent, className) => {    // {...props} Spread Operator
     return props => (
         <div className={className}>
-            <WrappedComponent/>
+            <WrappedComponent {...props}/>
         </div>
     );
 };
