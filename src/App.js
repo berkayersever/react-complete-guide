@@ -66,7 +66,7 @@ class App extends Component {
                             <Person
                                 name={this.state.persons[2].name}
                                 age={this.state.persons[2].age} />
-                        </div> : null
+                        </div> : null   // Return null
                 }
             </div>
         );
