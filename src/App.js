@@ -34,8 +34,7 @@ class App extends Component {
     }
 
     togglePersonsHandler = () => {
-
-
+        const doesShow = this.state.showPersons;
     }
 
     render () {
