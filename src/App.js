@@ -24,17 +24,16 @@ class App extends Component {
 
         // const person = Object.assign({}, this.state.persons[personIndex]);  // Alternative approach
 
-        this.setState({
-            persons: [
-                {name: 'Max', age: 28},
-                {name: event.target.value, age: 29},
-                {name: 'Stephanie', age: 26}
-            ]
-        })
+        person.name = event.target.value;
+
+        const persons = [...this.state.persons];
+        persons[personIndex] = person;
+
+        this.setState({persons: persons});
     }
 
     deletePersonHandler = (personIndex) => {
-        // const persons = this.state.persons.slice();  // For copying the array
+        // const persons = this.state.persons.slice();  // For copying the array with slice method
         const persons = [...this.state.persons];        // For copying the array with spread method
         persons.splice(personIndex, 1);
         this.setState({persons: persons});
@@ -47,7 +46,8 @@ class App extends Component {
 
     render() {
         const style = {
-            backgroundColor: 'white',
+            backgroundColor: 'green',
+            color: 'white',
             font: 'inherit',
             border: '1px solid blue',
             padding: '8px',
@@ -65,11 +65,11 @@ class App extends Component {
                             name={person.name}
                             age={person.age}
                             key={person.id}
-                            changed={(event) => this.nameChangedHandler(event, person.id)} />
+                            changed={(event) => this.nameChangedHandler(event, person.id)}/>
                     })}
-
                 </div>
             );
+            style.backgroundColor = 'red';
         }
 
         return (
