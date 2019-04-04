@@ -18,9 +18,11 @@ class App extends Component {
             return p.id === id;
         });
 
-        const person = {
-            ...this.state.persons[personIndex]
-        };
+        // const person = {
+        //     ...this.state.persons[personIndex]
+        // };
+
+        const person = Object.assign({}, this.state.persons[personIndex]);  // Alternative approach
 
         this.setState({
             persons: [
