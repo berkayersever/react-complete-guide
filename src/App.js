@@ -24,7 +24,8 @@ class App extends Component {
     }
 
     deletePersonHandler = (personIndex) => {
-        const persons = this.state.persons.slice();     // For copying the array
+        // const persons = this.state.persons.slice();  // For copying the array
+        const persons = [...this.state.persons];        // For copying the array
         persons.splice(personIndex, 1);
         this.setState({persons: persons});
     }
