@@ -1,26 +1,26 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import Person from './Person/Person';
 
 class App extends Component {
     state = {
         persons: [
-            { name: 'Max', age: 28 },
-            { name: 'Manu', age: 29 },
-            { name: 'Stephanie', age: 26 }
+            {name: 'Max', age: 28},
+            {name: 'Manu', age: 29},
+            {name: 'Stephanie', age: 26}
         ],
         otherState: 'some other value',
         showPersons: false
     }
 
     nameChangedHandler = (event) => {
-        this.setState( {
+        this.setState({
             persons: [
-                { name: 'Max', age: 28 },
-                { name: event.target.value, age: 29 },
-                { name: 'Stephanie', age: 26 }
+                {name: 'Max', age: 28},
+                {name: event.target.value, age: 29},
+                {name: 'Stephanie', age: 26}
             ]
-        } )
+        })
     }
 
     deletePersonHandler = (personIndex) => {
@@ -35,7 +35,7 @@ class App extends Component {
         this.setState({showPersons: !doesShow});
     }
 
-    render () {
+    render() {
         const style = {
             backgroundColor: 'white',
             font: 'inherit',
@@ -46,14 +46,14 @@ class App extends Component {
 
         let persons = null;
 
-        if(this.state.showPersons) {
+        if (this.state.showPersons) {
             persons = (
                 <div>
                     {this.state.persons.map((person, index) => {
                         return <Person
                             click={() => this.deletePersonHandler(index)}
                             name={person.name}
-                            age={person.age} />
+                            age={person.age}/>
                     })}
 
                 </div>
