@@ -52,12 +52,14 @@ class App extends Component {
             persons = (
                 <div>
                     {this.state.persons.map((person, index) => {
-                        return <Person
-                            click={() => this.deletePersonHandler(index)}
-                            name={person.name}
-                            age={person.age}
-                            key={person.id}
-                            changed={(event) => this.nameChangedHandler(event, person.id)}/>
+                        return <ErrorBoundary key={person.id}>
+                            <Person
+                                click={() => this.deletePersonHandler(index)}
+                                name={person.name}
+                                age={person.age}
+                                key={person.id}
+                                changed={(event) => this.nameChangedHandler(event, person.id)}/>
+                        </ErrorBoundary>
                     })}
                 </div>
             );
@@ -74,12 +76,12 @@ class App extends Component {
         }
 
         return (
-                <div className={styles.App}>
-                    <h1>Hi, I'm a React App</h1>
-                    <p className={classes.join(' ')}>This is really working!</p>
-                    <button className={btnClass} onClick={this.togglePersonsHandler}>Toggle Persons</button>
-                    {persons}
-                </div>
+            <div className={styles.App}>
+                <h1>Hi, I'm a React App</h1>
+                <p className={classes.join(' ')}>This is really working!</p>
+                <button className={btnClass} onClick={this.togglePersonsHandler}>Toggle Persons</button>
+                {persons}
+            </div>
         );
         // return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Does this work now?'));
     }
