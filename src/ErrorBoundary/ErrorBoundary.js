@@ -6,6 +6,10 @@ class ErrorBoundary extends Component {
         errorMessage: ''
     }
 
+    componentDidCatch = (error, info) => {
+        this.setState({hasError: true, errorMessage: error});
+    }
+
     render() {
         return <h1>Oops! Something went wrong.</h1>;
     }
