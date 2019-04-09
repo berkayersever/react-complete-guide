@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import styles from './App.module.css';
-import Person from '../components/Persons/Person/Person';
+import Persons from '../components/Persons/Persons';
 
 class App extends Component {
     state = {
@@ -50,6 +50,7 @@ class App extends Component {
         if (this.state.showPersons) {
             persons = (
                 <div>
+                    <Persons/>
                     {this.state.persons.map((person, index) => {
                         return <Person
                             click={() => this.deletePersonHandler(index)}
