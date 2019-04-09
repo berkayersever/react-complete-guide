@@ -2,10 +2,10 @@ import React from 'react';
 
 const cockpit = () => {
     const classes = [];
-    if (this.state.persons.length < 3) {
+    if (props.persons.length < 3) {
         classes.push(styles.red);    // classes = ['red']
     }
-    if (this.state.persons.length < 2) {
+    if (props.persons.length < 2) {
         classes.push(styles.bold);   // classes = ['red', 'bold']
     }
 
