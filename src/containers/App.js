@@ -60,13 +60,6 @@ class App extends Component {
         }
 
         // let classes = ['red', 'bold'].join(' ');
-        const classes = [];
-        if (this.state.persons.length < 3) {
-            classes.push(styles.red);    // classes = ['red']
-        }
-        if (this.state.persons.length < 2) {
-            classes.push(styles.bold);   // classes = ['red', 'bold']
-        }
 
         return (
             <div className={styles.App}>
