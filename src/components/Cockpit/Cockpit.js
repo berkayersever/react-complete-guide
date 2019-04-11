@@ -1,8 +1,12 @@
 import React from 'react';
 import styles from './Cockpit.module.css';
 
-const cockpit = () => {
+const cockpit = ( props ) => {
     const classes = [];
+    let btnClass = '';
+    if(props.showPersons) {
+        btnClass = styles.Red;
+    }
     if (props.persons.length < 3) {
         classes.push(styles.red);    // classes = ['red']
     }
@@ -11,7 +15,7 @@ const cockpit = () => {
     }
 
     return (
-        <div>
+        <div className={styles.Cockpit}>
             <h1>Hi, I'm a React App</h1>
             <p className={classes.join(' ')}>This is really working!</p>
             <button className={btnClass} onClick={this.togglePersonsHandler}>Toggle Persons</button>

@@ -46,7 +46,6 @@ class App extends Component {
 
     render() {
         let persons = null;
-        let btnClass = '';
         if (this.state.showPersons) {
             persons = (
                 <div>
@@ -56,7 +55,6 @@ class App extends Component {
                         changed={this.nameChangedHandler} />
                 </div>
             );
-            btnClass = styles.Red;
         }
 
         // let classes = ['red', 'bold'].join(' ');
