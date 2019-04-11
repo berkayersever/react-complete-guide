@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0afaf26-4005-460c-9fdf-c63df0488d5d" name="Default" comment="Removed Radium from Person.js">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    <list default="true" id="c0afaf26-4005-460c-9fdf-c63df0488d5d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cockpit/Cockpit.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cockpit/Cockpit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.module.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Person.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Person/Person.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="220">
+              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -28,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+            <state relative-caret-position="309">
+              <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -40,17 +42,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment/src/index.js">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
@@ -60,9 +53,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registerServiceWorker.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment/src/registerServiceWorker.js">
+      <file leaf-file-name="Persons.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cockpit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cockpit.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="App.module.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/App.module.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.module.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.module.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -87,8 +133,17 @@
         <option value="$PROJECT_DIR$/assignment/src/UserOutput/UserOutput.css" />
         <option value="$PROJECT_DIR$/assignment/src/App.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/Person/Person.module.css" />
+        <option value="$PROJECT_DIR$/src/App.module.css" />
         <option value="$PROJECT_DIR$/src/Person/Person.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/ErrorBoundary/ErrorBoundary.js" />
+        <option value="$PROJECT_DIR$/src/Persons/Persons.js" />
+        <option value="$PROJECT_DIR$/src/components/Persons/Persons.js" />
+        <option value="$PROJECT_DIR$/src/containers/App.js" />
+        <option value="$PROJECT_DIR$/src/components/Cockpit/Cockpit.js" />
+        <option value="$PROJECT_DIR$/src/containers/App.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Cockpit/Cockpit.css" />
       </list>
     </option>
   </component>
@@ -112,20 +167,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/assignment/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/assignment/package.json" />
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="318" />
-    <option name="y" value="329" />
-    <option name="width" value="932" />
-    <option name="height" value="1017" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -151,7 +203,27 @@
               <item name="react-complete-guide" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-complete-guide" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Person" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-complete-guide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-complete-guide" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Cockpit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-complete-guide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-complete-guide" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Persons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-complete-guide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-complete-guide" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,7 +234,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-sample" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-ecommerce" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -180,6 +252,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Berkay\Documents\Repositories\react-complete-guide\src\containers" />
+      <recent name="C:\Users\Berkay\Documents\Repositories\react-complete-guide\src\components" />
+      <recent name="C:\Users\Berkay\Documents\Repositories\react-complete-guide\src\Persons" />
       <recent name="C:\Users\Berkay\Documents\Repositories\react-complete-guide\assignment\src\UserOutput" />
     </key>
   </component>
@@ -211,244 +286,6 @@
       <workItem from="1553727848950" duration="6521000" />
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
-    </task>
-    <task id="LOCAL-00025" summary="Minor change.">
-      <created>1553733365834</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1553733365834</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Major changes.">
-      <created>1553788475255</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1553788475255</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Implemented nameChangedHandler method.">
-      <created>1553891882435</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1553891882435</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Minor change.">
-      <created>1553891896601</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1553891896601</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Minor change.">
-      <created>1553892531250</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1553892531250</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Create Person.css">
-      <created>1553892865556</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1553892865556</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Update Person.css">
-      <created>1553892875227</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1553892875227</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Added className for div.">
-      <created>1553892938219</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1553892938219</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Added width to Person.css">
-      <created>1553892983175</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1553892983175</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Added margin to Person.css">
-      <created>1553892999647</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1553892999647</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Added border to Person.css">
-      <created>1553893028391</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1553893028391</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Added box-shadow to Person.css">
-      <created>1553893064379</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1553893064379</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Added padding to Person.css">
-      <created>1553893091240</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1553893091240</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Added text-align to Person.css">
-      <created>1553893115174</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1553893115174</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Imported Person.css">
-      <created>1553893242365</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1553893242365</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Updated the margin.">
-      <created>1553893413723</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1553893413723</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Created inline style.">
-      <created>1553897300944</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1553897300944</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Removed the comment.">
-      <created>1554316254780</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1554316254780</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Initialized the togglePersonsHandler method and some minor changes.">
-      <created>1554318260944</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1554318260944</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Created an if else check.">
-      <created>1554324332310</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1554324332310</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Minor changes.">
-      <created>1554324500114</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1554324500114</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Implemented the togglePersonsHandler method.">
-      <created>1554324564991</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1554324564991</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Minor change in the togglePersonsHandler method.">
-      <created>1554324640749</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1554324640749</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Changed the button name.">
-      <created>1554324859503</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1554324859503</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Initialized the persons as null.">
-      <created>1554325121353</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1554325121353</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Created an if statement to check the state and update the persons.">
-      <created>1554325236266</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1554325236267</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Refactored the code.">
-      <created>1554338522045</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1554338522045</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Deleted switchNameHandler method.">
-      <created>1554340421112</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1554340421112</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Initialized the deletePersonHandler method.">
-      <created>1554340783001</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1554340783001</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Minor addition to the deletePersonHandler method.">
-      <created>1554341921954</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1554341921954</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Minor addition to the deletePersonHandler method.">
-      <created>1554341958617</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1554341958617</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Minor change in the deletePersonHandler.">
-      <created>1554375223679</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1554375223680</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Used an alternative way for copying the array.">
-      <created>1554376207311</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1554376207312</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Minor change.">
-      <created>1554376257577</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1554376257577</updated>
     </task>
     <task id="LOCAL-00059" summary="Refactored the code.">
       <created>1554376428130</created>
@@ -555,11 +392,249 @@
       <option name="project" value="LOCAL" />
       <updated>1554427202987</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Using CSS Modules without using 'npm run eject'">
+      <created>1554460904749</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1554460904749</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Created an error message for testing.">
+      <created>1554747220342</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1554747220342</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Create ErrorBoundary.js">
+      <created>1554749060440</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1554749060440</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Created render property.">
+      <created>1554749236976</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1554749236976</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Created state property.">
+      <created>1554749288521</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1554749288521</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Created componentDidCatch property.">
+      <created>1554749447925</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1554749447925</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Minor changes.">
+      <created>1554749623217</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1554749623217</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Imported ErrorBoundary.">
+      <created>1554749689833</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1554749689833</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Tested ErrorBoundary in App.js">
+      <created>1554750021384</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1554750021384</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Removed the error testing part.">
+      <created>1554755003131</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1554755003131</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Removed the ErrorBoundary.">
+      <created>1554755072495</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1554755072495</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Removed the ErrorBoundary.">
+      <created>1554755197035</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1554755197035</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Delete ErrorBoundary.js">
+      <created>1554755280044</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1554755280044</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Delete ErrorBoundary.js">
+      <created>1554755292229</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1554755292230</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Create Persons.js">
+      <created>1554755525136</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1554755525136</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Moved Person folder into Persons.">
+      <created>1554755577923</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1554755577923</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Moved Persons folder into components.">
+      <created>1554755734793</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1554755734793</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Moved App.js and App.module.css into containers.">
+      <created>1554755847166</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1554755847166</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Moved App.test.js into containers.">
+      <created>1554755964505</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1554755964505</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Create Cockpit.js">
+      <created>1554756036957</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1554756036957</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Initialized Person.js">
+      <created>1554839967496</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1554839967496</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Implemented Person.js">
+      <created>1554840590194</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1554840590194</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Minor changes.">
+      <created>1554841926953</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1554841926953</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Minor changes.">
+      <created>1554841958573</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1554841958573</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Exported persons">
+      <created>1554842003512</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1554842003512</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Imported Persons to App.js">
+      <created>1554842137563</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1554842137563</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Refactored the code.">
+      <created>1554842442258</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1554842442258</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Initialized the Cockpit.js">
+      <created>1554843267531</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1554843267531</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Minor change.">
+      <created>1554843346869</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1554843346869</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Implemented the Cockpit.js">
+      <created>1554843500589</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1554843500589</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Minor change.">
+      <created>1554843538169</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1554843538169</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Minor change.">
+      <created>1554843558372</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1554843558372</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Minor change.">
+      <created>1554843597383</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1554843597383</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Create Cockpit.css">
+      <created>1554843630915</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1554843630915</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44503000" />
+    <option name="totallyTimeSpent" value="58975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -569,21 +644,32 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32893288" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32893288" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32893288" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3278867" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3278867" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.119072706" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32893288" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.34243459" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32893288" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3278867" />
+      <window_info id="Favorites" order="3" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,35 +705,95 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Minor change in the togglePersonsHandler method." />
-    <MESSAGE value="Changed the button name." />
-    <MESSAGE value="Initialized the persons as null." />
-    <MESSAGE value="Created an if statement to check the state and update the persons." />
-    <MESSAGE value="Deleted switchNameHandler method." />
-    <MESSAGE value="Initialized the deletePersonHandler method." />
-    <MESSAGE value="Minor addition to the deletePersonHandler method." />
-    <MESSAGE value="Minor change in the deletePersonHandler." />
-    <MESSAGE value="Used an alternative way for copying the array." />
-    <MESSAGE value="Minor change." />
+    <MESSAGE value="Create ErrorBoundary.js" />
+    <MESSAGE value="Created render property." />
+    <MESSAGE value="Created state property." />
+    <MESSAGE value="Created componentDidCatch property." />
+    <MESSAGE value="Imported ErrorBoundary." />
+    <MESSAGE value="Tested ErrorBoundary in App.js" />
+    <MESSAGE value="Removed the error testing part." />
+    <MESSAGE value="Removed the ErrorBoundary." />
+    <MESSAGE value="Delete ErrorBoundary.js" />
+    <MESSAGE value="Create Persons.js" />
+    <MESSAGE value="Moved Person folder into Persons." />
+    <MESSAGE value="Moved Persons folder into components." />
+    <MESSAGE value="Moved App.js and App.module.css into containers." />
+    <MESSAGE value="Moved App.test.js into containers." />
+    <MESSAGE value="Create Cockpit.js" />
+    <MESSAGE value="Initialized Person.js" />
+    <MESSAGE value="Implemented Person.js" />
+    <MESSAGE value="Minor changes." />
+    <MESSAGE value="Exported persons" />
+    <MESSAGE value="Imported Persons to App.js" />
     <MESSAGE value="Refactored the code." />
-    <MESSAGE value="Created id attribute for the Persons." />
-    <MESSAGE value="Some changes in the nameChangedHandler method." />
-    <MESSAGE value="Created an alternative approach for the person." />
-    <MESSAGE value="Back to the modern approach for the person." />
-    <MESSAGE value="Added dynamic styling for the button." />
-    <MESSAGE value="Created two more CSS classes." />
-    <MESSAGE value="Created classes array to keep the CSS class names." />
-    <MESSAGE value="Implemented dynamic classes for CSS." />
-    <MESSAGE value="Imported Radium." />
-    <MESSAGE value="Imported Radium to Person.js" />
-    <MESSAGE value="Created hover effect by using Radium." />
-    <MESSAGE value="Replaced light red with salmon for the styling." />
-    <MESSAGE value="Created media queries using Radium." />
-    <MESSAGE value="Removed Radium from Person.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed Radium from Person.js" />
+    <MESSAGE value="Initialized the Cockpit.js" />
+    <MESSAGE value="Implemented the Cockpit.js" />
+    <MESSAGE value="Minor change." />
+    <MESSAGE value="Create Cockpit.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Cockpit.css" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Person/Person.js">
+    <entry file="file://$PROJECT_DIR$/assignment/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/App.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="394" column="28" selection-start-line="394" selection-start-column="16" selection-end-line="394" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/build.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="61" column="64" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" column="22" selection-end-line="13" selection-end-column="22" />
@@ -657,53 +803,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/src/UserInput/UserInput.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/src/UserOutput/UserOutput.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/src/registerServiceWorker.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/src/UserOutput/UserOutput.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/assignment/src/UserInput/UserInput.js" />
+    <entry file="file://$PROJECT_DIR$/assignment/src/UserOutput/UserOutput.css" />
+    <entry file="file://$PROJECT_DIR$/assignment/src/App.js" />
+    <entry file="file://$PROJECT_DIR$/assignment/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/assignment/src/UserOutput/UserOutput.js" />
+    <entry file="file://$PROJECT_DIR$/src/containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1180">
           <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
@@ -713,7 +818,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person/Person.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
@@ -735,7 +840,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/App.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
@@ -751,7 +856,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -760,7 +865,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
@@ -770,14 +875,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person/Person.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/App.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
@@ -793,7 +898,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -802,21 +907,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person/Person.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/App.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
@@ -832,7 +937,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -841,7 +946,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
@@ -864,7 +969,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -885,14 +990,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person/Person.css">
+    <entry file="file://$PROJECT_DIR$/assignment/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/radium/es/components/style-root.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="197">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/src/index.js">
+    <entry file="file://$PROJECT_DIR$/assignment/src/UserInput/UserInput.js" />
+    <entry file="file://$PROJECT_DIR$/assignment/src/UserOutput/UserOutput.js" />
+    <entry file="file://$PROJECT_DIR$/assignment/src/UserOutput/UserOutput.css" />
+    <entry file="file://$PROJECT_DIR$/assignment/src/App.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ErrorBoundary/ErrorBoundary.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -901,77 +1031,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/src/registerServiceWorker.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/radium/es/components/style-root.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/src/UserInput/UserInput.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/src/UserOutput/UserOutput.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="240">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/src/UserOutput/UserOutput.css">
+    <entry file="file://$PROJECT_DIR$/src/containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person/Person.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+        <state relative-caret-position="309">
+          <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/App.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
