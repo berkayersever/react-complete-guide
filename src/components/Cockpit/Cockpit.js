@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './Cockpit.module.css';
 
 const cockpit = () => {
     const classes = [];
