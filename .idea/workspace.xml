@@ -32,8 +32,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="340">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -290,13 +290,6 @@
       <workItem from="1553727848950" duration="6521000" />
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
-    </task>
-    <task id="LOCAL-00074" summary="Using CSS Modules without using 'npm run eject'">
-      <created>1554460904749</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1554460904749</updated>
     </task>
     <task id="LOCAL-00075" summary="Created an error message for testing.">
       <created>1554747220342</created>
@@ -634,11 +627,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555080034048</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="Back to original initialization.">
+      <created>1555080078281</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1555080078281</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65401000" />
+    <option name="totallyTimeSpent" value="65546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -709,7 +709,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create Persons.js" />
     <MESSAGE value="Moved Person folder into Persons." />
     <MESSAGE value="Moved Persons folder into components." />
     <MESSAGE value="Moved App.js and App.module.css into containers." />
@@ -734,7 +733,8 @@
     <MESSAGE value="Testing the Lifecycle." />
     <MESSAGE value="Minor change." />
     <MESSAGE value="Initialized the state inside the constructor." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialized the state inside the constructor." />
+    <MESSAGE value="Back to original initialization." />
+    <option name="LAST_COMMIT_MESSAGE" value="Back to original initialization." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assignment/src/App.js">
@@ -1072,8 +1072,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="340">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
