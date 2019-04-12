@@ -7,6 +7,11 @@ class Persons extends Component {
         return state;
     }
 
+    shouldComponentUpdate(nextProps, nextState) {
+        console.log('[Persons.js] shouldComponentUpdate');
+        return true;
+    }
+
     render() {
         console.log('[Persons.js] is rendering...');
         return this.props.persons.map((person, index) => {
