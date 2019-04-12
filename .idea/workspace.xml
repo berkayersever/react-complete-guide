@@ -32,8 +32,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="320">
+              <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -290,13 +290,6 @@
       <workItem from="1553727848950" duration="6521000" />
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
-    </task>
-    <task id="LOCAL-00075" summary="Created an error message for testing.">
-      <created>1554747220342</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1554747220342</updated>
     </task>
     <task id="LOCAL-00076" summary="Create ErrorBoundary.js">
       <created>1554749060440</created>
@@ -634,11 +627,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555080078281</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="Created getDerivedStateFromProps static method.">
+      <created>1555080225932</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1555080225932</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65546000" />
+    <option name="totallyTimeSpent" value="65601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -709,7 +709,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Moved Person folder into Persons." />
     <MESSAGE value="Moved Persons folder into components." />
     <MESSAGE value="Moved App.js and App.module.css into containers." />
     <MESSAGE value="Moved App.test.js into containers." />
@@ -734,7 +733,8 @@
     <MESSAGE value="Minor change." />
     <MESSAGE value="Initialized the state inside the constructor." />
     <MESSAGE value="Back to original initialization." />
-    <option name="LAST_COMMIT_MESSAGE" value="Back to original initialization." />
+    <MESSAGE value="Created getDerivedStateFromProps static method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created getDerivedStateFromProps static method." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assignment/src/App.js">
@@ -1072,8 +1072,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="320">
+          <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
