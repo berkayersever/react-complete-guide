@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import Person from './Person/Person'
 
 class Persons extends Component {
+    static getDerivedStateFromProps(props, state) {
+        console.log('[Persons.js] getDerivedStateFromProps');
+        return state;
+    }
+
     render() {
         console.log('[Persons.js] is rendering...');
         return this.props.persons.map((person, index) => {
