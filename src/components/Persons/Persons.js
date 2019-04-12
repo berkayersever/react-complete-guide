@@ -16,6 +16,10 @@ class Persons extends Component {
         console.log('[Persons.js] getSnapshotBeforeUpdate');
     }
 
+    componentDidUpdate() {
+        console.log('[Persons.js] componentDidUpdate');
+    }
+
     render() {
         console.log('[Persons.js] is rendering...');
         return this.props.persons.map((person, index) => {
