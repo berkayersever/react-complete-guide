@@ -32,8 +32,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="28" column="5" selection-start-line="26" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="140">
+              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -299,13 +299,6 @@
       <workItem from="1553727848950" duration="6521000" />
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
-    </task>
-    <task id="LOCAL-00084" summary="Removed the ErrorBoundary.">
-      <created>1554755072495</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1554755072495</updated>
     </task>
     <task id="LOCAL-00085" summary="Removed the ErrorBoundary.">
       <created>1554755197035</created>
@@ -643,11 +636,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555088787293</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="Minor change.">
+      <created>1555088845620</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1555088845621</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67092000" />
+    <option name="totallyTimeSpent" value="67340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1081,8 +1081,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="28" column="5" selection-start-line="26" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="140">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
