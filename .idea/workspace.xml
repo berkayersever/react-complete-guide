@@ -56,8 +56,8 @@
       <file leaf-file-name="Persons.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -306,20 +306,6 @@
       <workItem from="1553727848950" duration="6521000" />
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
-    </task>
-    <task id="LOCAL-00100" summary="Refactored the code.">
-      <created>1554842442258</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1554842442258</updated>
-    </task>
-    <task id="LOCAL-00101" summary="Initialized the Cockpit.js">
-      <created>1554843267531</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1554843267531</updated>
     </task>
     <task id="LOCAL-00102" summary="Minor change.">
       <created>1554843346869</created>
@@ -650,11 +636,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555179137661</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="Added componentWillReceiveProps() to Persons.js">
+      <created>1555179343208</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1555179343208</updated>
+    </task>
+    <task id="LOCAL-00150" summary="Commented componentWillReceiveProps() out from Persons.js">
+      <created>1555179368688</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1555179368688</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70697000" />
+    <option name="totallyTimeSpent" value="70818000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -725,8 +725,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated the App Title." />
-    <MESSAGE value="Minor change in the heading." />
     <MESSAGE value="Testing the Lifecycle." />
     <MESSAGE value="Initialized the state inside the constructor." />
     <MESSAGE value="Back to original initialization." />
@@ -750,7 +748,9 @@
     <MESSAGE value="Commented componentWillMount() out from App.js" />
     <MESSAGE value="Commented getDerivedStateFromProps() out from Persons.js" />
     <MESSAGE value="Minor change." />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor change." />
+    <MESSAGE value="Added componentWillReceiveProps() to Persons.js" />
+    <MESSAGE value="Commented componentWillReceiveProps() out from Persons.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commented componentWillReceiveProps() out from Persons.js" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assignment/src/App.js">
@@ -1088,8 +1088,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
