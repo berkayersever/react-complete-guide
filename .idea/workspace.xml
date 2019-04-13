@@ -56,8 +56,8 @@
       <file leaf-file-name="Persons.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="420">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -306,13 +306,6 @@
       <workItem from="1553727848950" duration="6521000" />
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
-    </task>
-    <task id="LOCAL-00098" summary="Exported persons">
-      <created>1554842003512</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1554842003512</updated>
     </task>
     <task id="LOCAL-00099" summary="Imported Persons to App.js">
       <created>1554842137563</created>
@@ -650,11 +643,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555178812949</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="Minor change.">
+      <created>1555178943943</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1555178943943</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70308000" />
+    <option name="totallyTimeSpent" value="70504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -737,7 +737,6 @@
     <MESSAGE value="Added console.log() to the Person.js" />
     <MESSAGE value="Add componentDidMount() to App.js" />
     <MESSAGE value="Added componentDidMount() to App.js" />
-    <MESSAGE value="Minor change." />
     <MESSAGE value="Minor changes." />
     <MESSAGE value="Imported Component from react." />
     <MESSAGE value="Switched to class based Component for Person.js" />
@@ -750,7 +749,8 @@
     <MESSAGE value="Added componentWillMount() to App.js" />
     <MESSAGE value="Commented componentWillMount() out from App.js" />
     <MESSAGE value="Commented getDerivedStateFromProps() out from Persons.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commented getDerivedStateFromProps() out from Persons.js" />
+    <MESSAGE value="Minor change." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor change." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assignment/src/App.js">
@@ -1088,8 +1088,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="420">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
