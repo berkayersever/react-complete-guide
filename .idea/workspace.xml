@@ -56,8 +56,8 @@
       <file leaf-file-name="Persons.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            <state relative-caret-position="380">
+              <caret line="25" column="8" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="25" selection-end-column="8" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -306,13 +306,6 @@
       <workItem from="1553727848950" duration="6521000" />
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
-    </task>
-    <task id="LOCAL-00102" summary="Minor change.">
-      <created>1554843346869</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1554843346869</updated>
     </task>
     <task id="LOCAL-00103" summary="Implemented the Cockpit.js">
       <created>1554843500589</created>
@@ -650,11 +643,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555179368688</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="Added componentWillUpdate() to Persons.js">
+      <created>1555179458592</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1555179458592</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70818000" />
+    <option name="totallyTimeSpent" value="70836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -725,7 +725,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Testing the Lifecycle." />
     <MESSAGE value="Initialized the state inside the constructor." />
     <MESSAGE value="Back to original initialization." />
     <MESSAGE value="Created getDerivedStateFromProps static method." />
@@ -750,7 +749,8 @@
     <MESSAGE value="Minor change." />
     <MESSAGE value="Added componentWillReceiveProps() to Persons.js" />
     <MESSAGE value="Commented componentWillReceiveProps() out from Persons.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commented componentWillReceiveProps() out from Persons.js" />
+    <MESSAGE value="Added componentWillUpdate() to Persons.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added componentWillUpdate() to Persons.js" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assignment/src/App.js">
@@ -1088,8 +1088,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        <state relative-caret-position="380">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="25" selection-end-column="8" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
