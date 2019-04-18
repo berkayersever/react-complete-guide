@@ -14,7 +14,7 @@ const cockpit = (props) => {
     }, []);
 
     useEffect(() => {
-
+        console.log('[Cockpit.js] 2nd useEffect');
     });
 
     const classes = [];

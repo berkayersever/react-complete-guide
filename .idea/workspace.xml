@@ -62,8 +62,8 @@
       <file leaf-file-name="Cockpit.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="300">
+              <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -280,7 +280,7 @@
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
       <workItem from="1555329758596" duration="54000" />
-      <workItem from="1555606902939" duration="3375000" />
+      <workItem from="1555606902939" duration="3390000" />
     </task>
     <task id="LOCAL-00116" summary="Minor change in the heading.">
       <created>1555173021266</created>
@@ -295,13 +295,6 @@
       <option name="presentableId" value="LOCAL-00117" />
       <option name="project" value="LOCAL" />
       <updated>1555173035216</updated>
-    </task>
-    <task id="LOCAL-00124" summary="Created getDerivedStateFromProps static method.">
-      <created>1555080225932</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1555080225932</updated>
     </task>
     <task id="LOCAL-00125" summary="Added console.log() to the start of render method.">
       <created>1555080300281</created>
@@ -625,11 +618,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555617804882</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="Minor change.">
+      <created>1555617827666</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1555617827667</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76987000" />
+    <option name="totallyTimeSpent" value="77002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -709,7 +709,6 @@
     <MESSAGE value="Added componentWillMount() to App.js" />
     <MESSAGE value="Commented componentWillMount() out from App.js" />
     <MESSAGE value="Commented getDerivedStateFromProps() out from Persons.js" />
-    <MESSAGE value="Minor change." />
     <MESSAGE value="Added componentWillReceiveProps() to Persons.js" />
     <MESSAGE value="Commented componentWillReceiveProps() out from Persons.js" />
     <MESSAGE value="Added componentWillUpdate() to Persons.js" />
@@ -729,7 +728,8 @@
     <MESSAGE value="Check if showCockpit is true or false." />
     <MESSAGE value="Added missing semicolon." />
     <MESSAGE value="Initialized second useEffect method." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialized second useEffect method." />
+    <MESSAGE value="Minor change." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor change." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
@@ -1037,8 +1037,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="300">
+          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
         </state>
       </provider>
     </entry>
