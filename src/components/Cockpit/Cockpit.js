@@ -22,7 +22,6 @@ const cockpit = (props) => {
 
     const classes = [];
     let btnClass = '';
-    // console.log('personsLength: '+ props.personsLength);
     if (props.showPersons) {
         btnClass = styles.Red;
     }

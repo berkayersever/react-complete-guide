@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0afaf26-4005-460c-9fdf-c63df0488d5d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Persons/Persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Persons/Persons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cockpit/Cockpit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cockpit/Cockpit.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,20 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Persons.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Persons.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="-277">
               <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cockpit.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Cockpit.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+            <state relative-caret-position="297">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -138,8 +138,8 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/Persons/Person/Person.js" />
         <option value="$PROJECT_DIR$/src/containers/App.js" />
-        <option value="$PROJECT_DIR$/src/components/Cockpit/Cockpit.js" />
         <option value="$PROJECT_DIR$/src/components/Persons/Persons.js" />
+        <option value="$PROJECT_DIR$/src/components/Cockpit/Cockpit.js" />
       </list>
     </option>
   </component>
@@ -283,7 +283,7 @@
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
       <workItem from="1555329758596" duration="54000" />
-      <workItem from="1555606902939" duration="10957000" />
+      <workItem from="1555606902939" duration="10987000" />
     </task>
     <task id="LOCAL-00116" summary="Minor change in the heading.">
       <created>1555173021266</created>
@@ -305,13 +305,6 @@
       <option name="presentableId" value="LOCAL-00127" />
       <option name="project" value="LOCAL" />
       <updated>1555176020904</updated>
-    </task>
-    <task id="LOCAL-00137" summary="Switched to class based Component for Person.js">
-      <created>1555092363401</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1555092363401</updated>
     </task>
     <task id="LOCAL-00138" summary="Switched to class based Component for Persons.js">
       <created>1555092571867</created>
@@ -628,11 +621,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555631548669</updated>
     </task>
-    <option name="localTasksCounter" value="183" />
+    <task id="LOCAL-00183" summary="Removed the comment.">
+      <created>1555631574826</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1555631574826</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84569000" />
+    <option name="totallyTimeSpent" value="84599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -708,7 +708,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added componentWillUpdate() to Persons.js" />
     <MESSAGE value="Commented componentWillUpdate() out from Persons.js" />
     <MESSAGE value="Added shouldComponentUpdate() to App.js" />
     <MESSAGE value="Return false from shouldComponentUpdate() in App.js" />
@@ -733,7 +732,8 @@
     <MESSAGE value="Added some explanation for the return statement." />
     <MESSAGE value="Wrapped cockpit with React.memo" />
     <MESSAGE value="Minor changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor changes." />
+    <MESSAGE value="Removed the comment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed the comment." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/containers/App.js">
@@ -1035,20 +1035,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-277">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        <state relative-caret-position="297">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
