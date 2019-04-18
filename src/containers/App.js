@@ -76,19 +76,24 @@ class App extends Component {
             persons = <Persons
                 persons={this.state.persons}
                 clicked={this.deletePersonHandler}
-                changed={this.nameChangedHandler} />;
+                changed={this.nameChangedHandler}/>;
         }
 
         // let classes = ['red', 'bold'].join(' ');
 
         return (
             <div className={styles.App}>
-                <button>Remove Cockpit</button>
+                <button onClick={() => {
+                    this.setState({showCockpit: false});
+                }}
+                >
+                    Remove Cockpit
+                </button>
                 <Cockpit
                     title={this.props.appTitle}
                     showPersons={this.state.showPersons}
                     persons={this.state.persons}
-                    clicked={this.togglePersonsHandler} />
+                    clicked={this.togglePersonsHandler}/>
                 {persons}
             </div>
         );
