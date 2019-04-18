@@ -29,7 +29,7 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
+            <state relative-caret-position="1140">
               <caret line="72" column="48" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -62,8 +62,8 @@
       <file leaf-file-name="Cockpit.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+            <state relative-caret-position="200">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -280,7 +280,7 @@
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
       <workItem from="1555329758596" duration="54000" />
-      <workItem from="1555606902939" duration="3390000" />
+      <workItem from="1555606902939" duration="4350000" />
     </task>
     <task id="LOCAL-00116" summary="Minor change in the heading.">
       <created>1555173021266</created>
@@ -296,33 +296,12 @@
       <option name="project" value="LOCAL" />
       <updated>1555173035216</updated>
     </task>
-    <task id="LOCAL-00125" summary="Added console.log() to the start of render method.">
-      <created>1555080300281</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1555080300281</updated>
-    </task>
-    <task id="LOCAL-00126" summary="Added console.log() to the Persons.js">
-      <created>1555080366158</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1555080366159</updated>
-    </task>
     <task id="LOCAL-00127" summary="Refactored the Persons.js">
       <created>1555176020904</created>
       <option name="number" value="00127" />
       <option name="presentableId" value="LOCAL-00127" />
       <option name="project" value="LOCAL" />
       <updated>1555176020904</updated>
-    </task>
-    <task id="LOCAL-00128" summary="Added console.log() to the Person.js">
-      <created>1555084871865</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1555084871865</updated>
     </task>
     <task id="LOCAL-00129" summary="Added componentDidMount() to App.js">
       <created>1555088573033</created>
@@ -625,11 +604,32 @@
       <option name="project" value="LOCAL" />
       <updated>1555617827667</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="Implemented the second useEffect method.">
+      <created>1555617869716</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1555617869716</updated>
+    </task>
+    <task id="LOCAL-00173" summary="Minor change.">
+      <created>1555617979335</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1555617979335</updated>
+    </task>
+    <task id="LOCAL-00174" summary="Minor change.">
+      <created>1555618002726</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1555618002726</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77002000" />
+    <option name="totallyTimeSpent" value="77962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -704,7 +704,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added componentDidUpdate() to Persons.js" />
     <MESSAGE value="Removed componentWillMount() from App.js" />
     <MESSAGE value="Added componentWillMount() to App.js" />
     <MESSAGE value="Commented componentWillMount() out from App.js" />
@@ -728,6 +727,7 @@
     <MESSAGE value="Check if showCockpit is true or false." />
     <MESSAGE value="Added missing semicolon." />
     <MESSAGE value="Initialized second useEffect method." />
+    <MESSAGE value="Implemented the second useEffect method." />
     <MESSAGE value="Minor change." />
     <option name="LAST_COMMIT_MESSAGE" value="Minor change." />
   </component>
@@ -1027,7 +1027,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
+        <state relative-caret-position="1140">
           <caret line="72" column="48" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -1037,8 +1037,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        <state relative-caret-position="200">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
     </entry>
