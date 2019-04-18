@@ -89,11 +89,14 @@ class App extends Component {
                 >
                     Remove Cockpit
                 </button>
-                <Cockpit
-                    title={this.props.appTitle}
-                    showPersons={this.state.showPersons}
-                    persons={this.state.persons}
-                    clicked={this.togglePersonsHandler}/>
+                {this.state.showCockpit ? (
+                    <Cockpit
+                        title={this.props.appTitle}
+                        showPersons={this.state.showPersons}
+                        persons={this.state.persons}
+                        clicked={this.togglePersonsHandler}
+                    />
+                ) : null}
                 {persons}
             </div>
         );
