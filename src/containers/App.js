@@ -62,7 +62,7 @@ class App extends Component {
         const persons = [...this.state.persons];        // For copying the array with spread method
         persons.splice(personIndex, 1);
         this.setState({persons: persons});
-    }
+    };
 
     togglePersonsHandler = () => {
         const doesShow = this.state.showPersons;
