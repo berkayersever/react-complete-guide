@@ -70,7 +70,7 @@ class App extends Component {
     };
 
     render() {
-        console.log('[App.js] is rendering...')
+        console.log('[App.js] is rendering...');
         let persons = null;
         if (this.state.showPersons) {
             persons = <Persons

@@ -29,8 +29,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+            <state relative-caret-position="120">
+              <caret line="72" column="48" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -280,7 +280,7 @@
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
       <workItem from="1555329758596" duration="54000" />
-      <workItem from="1555606902939" duration="3225000" />
+      <workItem from="1555606902939" duration="3251000" />
     </task>
     <task id="LOCAL-00116" summary="Minor change in the heading.">
       <created>1555173021266</created>
@@ -295,13 +295,6 @@
       <option name="presentableId" value="LOCAL-00117" />
       <option name="project" value="LOCAL" />
       <updated>1555173035216</updated>
-    </task>
-    <task id="LOCAL-00121" summary="Minor change.">
-      <created>1555079746980</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1555079746981</updated>
     </task>
     <task id="LOCAL-00122" summary="Initialized the state inside the constructor.">
       <created>1555080034048</created>
@@ -625,11 +618,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555617668161</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="Added missing semicolon.">
+      <created>1555617677958</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1555617677958</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76837000" />
+    <option name="totallyTimeSpent" value="76863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1034,8 +1034,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+        <state relative-caret-position="120">
+          <caret line="72" column="48" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
