@@ -53,8 +53,8 @@
       <file leaf-file-name="Persons.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+            <state relative-caret-position="240">
+              <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -280,7 +280,7 @@
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
       <workItem from="1555329758596" duration="54000" />
-      <workItem from="1555606902939" duration="6169000" />
+      <workItem from="1555606902939" duration="6232000" />
     </task>
     <task id="LOCAL-00116" summary="Minor change in the heading.">
       <created>1555173021266</created>
@@ -302,13 +302,6 @@
       <option name="presentableId" value="LOCAL-00127" />
       <option name="project" value="LOCAL" />
       <updated>1555176020904</updated>
-    </task>
-    <task id="LOCAL-00131" summary="Minor change.">
-      <created>1555088709680</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1555088709680</updated>
     </task>
     <task id="LOCAL-00132" summary="Minor change.">
       <created>1555088787293</created>
@@ -625,11 +618,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555623493465</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="Minor change in shouldComponentUpdate method.">
+      <created>1555626522960</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1555626522960</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79781000" />
+    <option name="totallyTimeSpent" value="79844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -704,7 +704,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added componentWillMount() to App.js" />
     <MESSAGE value="Commented componentWillMount() out from App.js" />
     <MESSAGE value="Commented getDerivedStateFromProps() out from Persons.js" />
     <MESSAGE value="Added componentWillReceiveProps() to Persons.js" />
@@ -729,7 +728,8 @@
     <MESSAGE value="Implemented the second useEffect method." />
     <MESSAGE value="Minor change." />
     <MESSAGE value="Reverted the change." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reverted the change." />
+    <MESSAGE value="Minor change in shouldComponentUpdate method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor change in shouldComponentUpdate method." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
@@ -1037,8 +1037,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        <state relative-caret-position="240">
+          <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
         </state>
       </provider>
     </entry>
