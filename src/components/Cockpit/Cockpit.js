@@ -3,7 +3,7 @@ import styles from './Cockpit.module.css';
 
 const cockpit = (props) => {
     useEffect(() => {
-        console.log('[Cockpit.js] useEffect');
+        console.log('[Cockpit.js] 1st useEffect');
         // HTTP Request
         setTimeout(() => {
             alert('Saved data to cloud!');
