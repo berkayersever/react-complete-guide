@@ -13,6 +13,10 @@ const cockpit = (props) => {
         };
     }, []);
 
+    useEffect(() => {
+
+    });
+
     const classes = [];
     let btnClass = '';
     if (props.showPersons) {
