@@ -9,12 +9,15 @@ const cockpit = (props) => {
             alert('Saved data to cloud!');
         }, 1000);
         return () => {
-            console.log('[Cockpit.js] cleanup work in useEffect');
+            console.log('[Cockpit.js] cleanup work in 1st useEffect');
         };
     }, []);
 
     useEffect(() => {
         console.log('[Cockpit.js] 2nd useEffect');
+        return () => {
+            console.log();
+        };
     });
 
     const classes = [];
