@@ -67,7 +67,7 @@ class App extends Component {
     togglePersonsHandler = () => {
         const doesShow = this.state.showPersons;
         this.setState({showPersons: !doesShow});
-    }
+    };
 
     render() {
         console.log('[App.js] is rendering...')
