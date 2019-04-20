@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0afaf26-4005-460c-9fdf-c63df0488d5d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Persons/Person/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Persons/Person/Person.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,8 +19,11 @@
       <file leaf-file-name="Person.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="180">
+              <caret line="9" column="99" lean-forward="true" selection-start-line="9" selection-start-column="99" selection-end-line="9" selection-end-column="99" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -294,14 +296,7 @@
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
       <workItem from="1555329758596" duration="54000" />
-      <workItem from="1555606902939" duration="12861000" />
-    </task>
-    <task id="LOCAL-00127" summary="Refactored the Persons.js">
-      <created>1555176020904</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1555176020904</updated>
+      <workItem from="1555606902939" duration="13107000" />
     </task>
     <task id="LOCAL-00143" summary="Removed componentWillMount() from App.js">
       <created>1555178577818</created>
@@ -639,11 +634,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555788107623</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <task id="LOCAL-00191" summary="Reverted the change.">
+      <created>1555788120486</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1555788120486</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86473000" />
+    <option name="totallyTimeSpent" value="86719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -733,7 +735,6 @@
     <MESSAGE value="Added missing semicolon." />
     <MESSAGE value="Initialized second useEffect method." />
     <MESSAGE value="Implemented the second useEffect method." />
-    <MESSAGE value="Reverted the change." />
     <MESSAGE value="Minor change in shouldComponentUpdate method." />
     <MESSAGE value="Refactored the code." />
     <MESSAGE value="Added some explanation for the return statement." />
@@ -744,7 +745,8 @@
     <MESSAGE value="Commented out shouldComponentUpdate." />
     <MESSAGE value="Imported PureComponent." />
     <MESSAGE value="Added another div element for testing purposes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added another div element for testing purposes." />
+    <MESSAGE value="Reverted the change." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverted the change." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/containers/App.js">
@@ -1011,13 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -1062,10 +1057,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="180">
+          <caret line="9" column="99" lean-forward="true" selection-start-line="9" selection-start-column="99" selection-end-line="9" selection-end-column="99" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
