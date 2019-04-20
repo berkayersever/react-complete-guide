@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0afaf26-4005-460c-9fdf-c63df0488d5d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Persons/Person/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Persons/Person/Person.js" afterDir="false" />
-    </list>
+    <list default="true" id="c0afaf26-4005-460c-9fdf-c63df0488d5d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Person.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Person.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -24,6 +22,15 @@
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Auxiliary.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hoc/Auxiliary.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -145,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/components/Cockpit/Cockpit.js" />
         <option value="$PROJECT_DIR$/src/components/Persons/Persons.js" />
         <option value="$PROJECT_DIR$/src/components/Persons/Person/Person.js" />
+        <option value="$PROJECT_DIR$/src/hoc/Auxiliary.js" />
       </list>
     </option>
   </component>
@@ -204,35 +212,7 @@
               <item name="react-complete-guide" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-complete-guide" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-complete-guide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-complete-guide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Cockpit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-complete-guide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-complete-guide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Persons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-complete-guide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-complete-guide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Persons" type="462c0819:PsiDirectoryNode" />
-              <item name="Person" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-complete-guide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-complete-guide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="hoc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,28 +276,7 @@
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
       <workItem from="1555329758596" duration="54000" />
-      <workItem from="1555606902939" duration="13107000" />
-    </task>
-    <task id="LOCAL-00143" summary="Removed componentWillMount() from App.js">
-      <created>1555178577818</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1555178577818</updated>
-    </task>
-    <task id="LOCAL-00144" summary="Added componentWillMount() to App.js">
-      <created>1555178598442</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1555178598442</updated>
-    </task>
-    <task id="LOCAL-00145" summary="Commented componentWillMount() out from App.js">
-      <created>1555178644652</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1555178644652</updated>
+      <workItem from="1555606902939" duration="13360000" />
     </task>
     <task id="LOCAL-00146" summary="Commented getDerivedStateFromProps() out from Persons.js">
       <created>1555178812949</created>
@@ -641,11 +600,32 @@
       <option name="project" value="LOCAL" />
       <updated>1555788120486</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="Added keys.">
+      <created>1555788370060</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1555788370060</updated>
+    </task>
+    <task id="LOCAL-00193" summary="Create Auxiliary.js">
+      <created>1555788545624</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1555788545624</updated>
+    </task>
+    <task id="LOCAL-00194" summary="Initialized Auxiliary.js">
+      <created>1555788609337</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1555788609337</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86719000" />
+    <option name="totallyTimeSpent" value="86972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -721,9 +701,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Return true from shouldComponentUpdate() in App.js" />
-    <MESSAGE value="Imported useEffect from react." />
-    <MESSAGE value="Added useEffect() to Cockpit.js" />
     <MESSAGE value="Set a timeout for the useEffect method." />
     <MESSAGE value="Run the useEffect method only when the persons are changed." />
     <MESSAGE value="Run the useEffect method only once when the page is rendered." />
@@ -746,19 +723,12 @@
     <MESSAGE value="Imported PureComponent." />
     <MESSAGE value="Added another div element for testing purposes." />
     <MESSAGE value="Reverted the change." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reverted the change." />
+    <MESSAGE value="Added keys." />
+    <MESSAGE value="Create Auxiliary.js" />
+    <MESSAGE value="Initialized Auxiliary.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialized Auxiliary.js" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/containers/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -1071,6 +1041,13 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hoc/Auxiliary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
