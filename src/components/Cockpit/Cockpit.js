@@ -28,7 +28,7 @@ const cockpit = (props) => {
     if (props.personsLength <= 2) {
         classes.push(styles.red);    // classes = ['red']
     }
-    if (props.personsLength < 2) {
+    if (props.personsLength <= 1) {
         classes.push(styles.bold);   // classes = ['red', 'bold']
     }
 
