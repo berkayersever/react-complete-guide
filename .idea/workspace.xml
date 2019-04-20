@@ -20,8 +20,8 @@
       <file leaf-file-name="Person.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="200">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -294,14 +294,7 @@
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
       <workItem from="1555329758596" duration="54000" />
-      <workItem from="1555606902939" duration="12795000" />
-    </task>
-    <task id="LOCAL-00117" summary="Minor change in the heading.">
-      <created>1555173035216</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1555173035216</updated>
+      <workItem from="1555606902939" duration="12861000" />
     </task>
     <task id="LOCAL-00127" summary="Refactored the Persons.js">
       <created>1555176020904</created>
@@ -639,11 +632,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555787652655</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="Added another div element for testing purposes.">
+      <created>1555788107623</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1555788107623</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86407000" />
+    <option name="totallyTimeSpent" value="86473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -719,7 +719,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Return false from shouldComponentUpdate() in App.js" />
     <MESSAGE value="Return true from shouldComponentUpdate() in App.js" />
     <MESSAGE value="Imported useEffect from react." />
     <MESSAGE value="Added useEffect() to Cockpit.js" />
@@ -744,7 +743,8 @@
     <MESSAGE value="Minor change." />
     <MESSAGE value="Commented out shouldComponentUpdate." />
     <MESSAGE value="Imported PureComponent." />
-    <option name="LAST_COMMIT_MESSAGE" value="Imported PureComponent." />
+    <MESSAGE value="Added another div element for testing purposes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added another div element for testing purposes." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/containers/App.js">
@@ -1064,8 +1064,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="200">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
