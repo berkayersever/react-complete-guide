@@ -83,7 +83,7 @@ class App extends Component {
         // let classes = ['red', 'bold'].join(' ');
 
         return (
-            <div className={styles.App}>
+            <WithClass className={styles.App}>
                 <button onClick={() => {
                     this.setState({showCockpit: false});
                 }}
@@ -99,7 +99,7 @@ class App extends Component {
                     />
                 ) : null}
                 {persons}
-            </div>
+            </WithClass>
         );
         // return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Does this work now?'));
     }
