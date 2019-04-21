@@ -17,4 +17,8 @@ class Person extends Component {
     }
 }
 
+Person.propTypes = {
+
+};
+
 export default withClass(Person, styles.Person);
