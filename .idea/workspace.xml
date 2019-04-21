@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c0afaf26-4005-460c-9fdf-c63df0488d5d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +21,20 @@
       <file leaf-file-name="Person.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state relative-caret-position="240">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -33,16 +43,16 @@
         <entry file="file://$PROJECT_DIR$/src/hoc/Auxiliary.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
-              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="59" column="87" lean-forward="true" selection-start-line="59" selection-start-column="87" selection-end-line="59" selection-end-column="87" />
+            <state relative-caret-position="410">
+              <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -54,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/hoc/withClass.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -87,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
-              <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -100,15 +110,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.module.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/App.module.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -317,21 +318,7 @@
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
       <workItem from="1555329758596" duration="54000" />
-      <workItem from="1555606902939" duration="18546000" />
-    </task>
-    <task id="LOCAL-00157" summary="Added useEffect() to Cockpit.js">
-      <created>1555263288895</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1555263288895</updated>
-    </task>
-    <task id="LOCAL-00158" summary="Set a timeout for the useEffect method.">
-      <created>1555615497793</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1555615497793</updated>
+      <workItem from="1555606902939" duration="19217000" />
     </task>
     <task id="LOCAL-00159" summary="Run the useEffect method only when the persons are changed.">
       <created>1555616256813</created>
@@ -662,11 +649,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555875249994</updated>
     </task>
-    <option name="localTasksCounter" value="214" />
+    <task id="LOCAL-00214" summary="Implemented changeCounter.">
+      <created>1555876987039</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1555876987040</updated>
+    </task>
+    <task id="LOCAL-00215" summary="Minor change.">
+      <created>1555877330568</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1555877330568</updated>
+    </task>
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92158000" />
+    <option name="totallyTimeSpent" value="92829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -742,7 +743,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed the comment." />
     <MESSAGE value="Commented out shouldComponentUpdate." />
     <MESSAGE value="Imported PureComponent." />
     <MESSAGE value="Added another div element for testing purposes." />
@@ -761,25 +761,16 @@
     <MESSAGE value="Replaced div with WithClass." />
     <MESSAGE value="Replaced className with classes." />
     <MESSAGE value="Imported Aux to App.js" />
-    <MESSAGE value="Minor change." />
     <MESSAGE value="Rename WithClass.js to withClass.js" />
     <MESSAGE value="Minor change for importing withClass." />
     <MESSAGE value="Minor change for exporting App." />
     <MESSAGE value="Import withClass to Person.js" />
     <MESSAGE value="Used props inside the WrappedComponent with the spread operator." />
-    <option name="LAST_COMMIT_MESSAGE" value="Used props inside the WrappedComponent with the spread operator." />
+    <MESSAGE value="Implemented changeCounter." />
+    <MESSAGE value="Minor change." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor change." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1031,7 +1022,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -1041,7 +1032,7 @@
     <entry file="file://$PROJECT_DIR$/src/hoc/Auxiliary.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1062,30 +1053,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hoc/withClass.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="59" column="87" lean-forward="true" selection-start-line="59" selection-start-column="87" selection-end-line="59" selection-end-column="87" />
+        <state relative-caret-position="410">
+          <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
