@@ -83,7 +83,7 @@ class App extends Component {
         // let classes = ['red', 'bold'].join(' ');
 
         return (
-            <WithClass className={styles.App}>
+            <WithClass classes={styles.App}>
                 <button onClick={() => {
                     this.setState({showCockpit: false});
                 }}
