@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import Aux from '../../../hoc/Auxiliary';
 import withClass from '../../../hoc/withClass';
 import styles from './Person.module.css';
