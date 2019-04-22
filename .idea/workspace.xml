@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0afaf26-4005-460c-9fdf-c63df0488d5d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -49,8 +50,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="105" column="31" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
+            <state relative-caret-position="320">
+              <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -323,28 +324,7 @@
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
       <workItem from="1555329758596" duration="54000" />
-      <workItem from="1555606902939" duration="24138000" />
-    </task>
-    <task id="LOCAL-00179" summary="Refactored the code.">
-      <created>1555626789178</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1555626789179</updated>
-    </task>
-    <task id="LOCAL-00180" summary="Added some explanation for the return statement.">
-      <created>1555626869798</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1555626869798</updated>
-    </task>
-    <task id="LOCAL-00181" summary="Wrapped cockpit with React.memo">
-      <created>1555627464686</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1555627464686</updated>
+      <workItem from="1555606902939" duration="24640000" />
     </task>
     <task id="LOCAL-00182" summary="Minor changes.">
       <created>1555631548669</created>
@@ -668,11 +648,32 @@
       <option name="project" value="LOCAL" />
       <updated>1555963330052</updated>
     </task>
-    <option name="localTasksCounter" value="236" />
+    <task id="LOCAL-00236" summary="Minor change.">
+      <created>1555963378973</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1555963378973</updated>
+    </task>
+    <task id="LOCAL-00237" summary="Create loginHandler method.">
+      <created>1555963470401</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1555963470401</updated>
+    </task>
+    <task id="LOCAL-00238" summary="Minor change.">
+      <created>1555963552697</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1555963552697</updated>
+    </task>
+    <option name="localTasksCounter" value="239" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97750000" />
+    <option name="totallyTimeSpent" value="98252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -748,7 +749,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Imported WithClass to App.js" />
     <MESSAGE value="Replaced div with WithClass." />
     <MESSAGE value="Replaced className with classes." />
     <MESSAGE value="Imported Aux to App.js" />
@@ -770,10 +770,11 @@
     <MESSAGE value="Initialized toggleBtnRef." />
     <MESSAGE value="Created a reference for the Toggle Persons button." />
     <MESSAGE value="Try clicking to the button." />
-    <MESSAGE value="Minor change." />
     <MESSAGE value="Create a new button." />
     <MESSAGE value="Added onClick to the button." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added onClick to the button." />
+    <MESSAGE value="Create loginHandler method." />
+    <MESSAGE value="Minor change." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor change." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.module.css">
@@ -1084,8 +1085,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="105" column="31" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
+        <state relative-caret-position="320">
+          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

@@ -78,16 +78,22 @@ class App extends Component {
         this.setState({showPersons: !doesShow});
     };
 
-    loginHandler = () => {};
+    loginHandler = () => {
+        this.setState({authenticated: true})
+    };
 
     render() {
         console.log('[App.js] is rendering...');
         let persons = null;
         if (this.state.showPersons) {
-            persons = <Persons
-                persons={this.state.persons}
-                clicked={this.deletePersonHandler}
-                changed={this.nameChangedHandler}/>;
+            persons = (
+                <Persons
+                    persons={this.state.persons}
+                    clicked={this.deletePersonHandler}
+                    changed={this.nameChangedHandler}
+                    isAuthenticated={this.state.authenticated}
+                />
+            );
         }
 
         // let classes = ['red', 'bold'].join(' ');
@@ -106,7 +112,7 @@ class App extends Component {
                         showPersons={this.state.showPersons}
                         personsLength={this.state.persons.length}
                         clicked={this.togglePersonsHandler}
-                        login={}
+                        login={this.loginHandler}
                     />
                 ) : null}
                 {persons}
