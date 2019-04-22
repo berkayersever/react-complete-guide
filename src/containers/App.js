@@ -77,6 +77,8 @@ class App extends Component {
         this.setState({showPersons: !doesShow});
     };
 
+    loginHandler = () => {};
+
     render() {
         console.log('[App.js] is rendering...');
         let persons = null;
