@@ -20,7 +20,8 @@ class App extends Component {
         otherState: 'some other value',
         showPersons: false,
         showCockpit: true,
-        changeCounter: 0
+        changeCounter: 0,
+        authenticated: false
     };
 
     static getDerivedStateFromProps(props, state) {
