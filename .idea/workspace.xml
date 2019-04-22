@@ -95,8 +95,8 @@
       <file leaf-file-name="Cockpit.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="346">
+              <caret line="41" column="107" lean-forward="true" selection-start-line="41" selection-start-column="107" selection-end-line="41" selection-end-column="107" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -324,21 +324,7 @@
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
       <workItem from="1555329758596" duration="54000" />
-      <workItem from="1555606902939" duration="23019000" />
-    </task>
-    <task id="LOCAL-00172" summary="Implemented the second useEffect method.">
-      <created>1555617869716</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1555617869716</updated>
-    </task>
-    <task id="LOCAL-00173" summary="Minor change.">
-      <created>1555617979335</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1555617979335</updated>
+      <workItem from="1555606902939" duration="23119000" />
     </task>
     <task id="LOCAL-00174" summary="Minor change.">
       <created>1555618002726</created>
@@ -669,11 +655,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555960872431</updated>
     </task>
-    <option name="localTasksCounter" value="229" />
+    <task id="LOCAL-00229" summary="Initialized toggleBtnRef.">
+      <created>1555962216281</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1555962216281</updated>
+    </task>
+    <task id="LOCAL-00230" summary="Minor change.">
+      <created>1555962251690</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1555962251690</updated>
+    </task>
+    <option name="localTasksCounter" value="231" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96631000" />
+    <option name="totallyTimeSpent" value="96731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -749,7 +749,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Replaced Aux with Fragment." />
     <MESSAGE value="Reverted back to Aux." />
     <MESSAGE value="Deleted the Fragment import." />
     <MESSAGE value="Create WithClass.js" />
@@ -772,9 +771,10 @@
     <MESSAGE value="Initialized the componentDidMount method." />
     <MESSAGE value="Refactored the render method." />
     <MESSAGE value="Implemented the componentDidMount method." />
-    <MESSAGE value="Minor change." />
     <MESSAGE value="Used super() in order to use 'this'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Used super() in order to use 'this'" />
+    <MESSAGE value="Initialized toggleBtnRef." />
+    <MESSAGE value="Minor change." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor change." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.module.css">
@@ -1085,8 +1085,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        <state relative-caret-position="346">
+          <caret line="41" column="107" lean-forward="true" selection-start-line="41" selection-start-column="107" selection-end-line="41" selection-end-column="107" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
