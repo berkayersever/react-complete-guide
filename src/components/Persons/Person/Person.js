@@ -5,6 +5,10 @@ import withClass from '../../../hoc/withClass';
 import styles from './Person.module.css';
 
 class Person extends Component {
+    constructor() {
+        this.inputElementRef = React.createRef();
+    }
+
     componentDidMount() {
         this.inputElement.focus();
     }
@@ -17,7 +21,8 @@ class Person extends Component {
             <p key="i2">{this.props.children}</p>
             <input
                 key="i3"
-                ref={(inputEl) => {this.inputElement = inputEl}}
+                // ref={(inputEl) => {this.inputElement = inputEl}}
+                ref={this.inputElementRef}
                 type="text"
                 onChange={this.props.changed}
                 value={this.props.name}
