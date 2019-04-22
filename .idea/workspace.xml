@@ -20,8 +20,8 @@
       <file leaf-file-name="Person.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="380">
+              <caret line="19" column="64" lean-forward="true" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -317,21 +317,7 @@
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
       <workItem from="1555329758596" duration="54000" />
-      <workItem from="1555606902939" duration="21178000" />
-    </task>
-    <task id="LOCAL-00165" summary="Check if showCockpit is true or false.">
-      <created>1555617559857</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1555617559857</updated>
-    </task>
-    <task id="LOCAL-00166" summary="Added missing semicolon.">
-      <created>1555617660079</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1555617660079</updated>
+      <workItem from="1555606902939" duration="21398000" />
     </task>
     <task id="LOCAL-00167" summary="Added missing semicolon.">
       <created>1555617668161</created>
@@ -662,11 +648,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555878169056</updated>
     </task>
-    <option name="localTasksCounter" value="222" />
+    <task id="LOCAL-00222" summary="Initialized the componentDidMount method.">
+      <created>1555959785393</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1555959785393</updated>
+    </task>
+    <task id="LOCAL-00223" summary="Refactored the render method.">
+      <created>1555959913468</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1555959913468</updated>
+    </task>
+    <option name="localTasksCounter" value="224" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94790000" />
+    <option name="totallyTimeSpent" value="95010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -742,8 +742,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create Auxiliary.js" />
-    <MESSAGE value="Initialized Auxiliary.js" />
     <MESSAGE value="Exported aux." />
     <MESSAGE value="Removed the import statement." />
     <MESSAGE value="Replaced Aux with Fragment." />
@@ -767,7 +765,9 @@
     <MESSAGE value="Implemented Person.propTypes" />
     <MESSAGE value="Changed the age to string. 28 to '28' for testing purposes." />
     <MESSAGE value="Reverted the change." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reverted the change." />
+    <MESSAGE value="Initialized the componentDidMount method." />
+    <MESSAGE value="Refactored the render method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored the render method." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.module.css">
@@ -1078,8 +1078,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="380">
+          <caret line="19" column="64" lean-forward="true" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
