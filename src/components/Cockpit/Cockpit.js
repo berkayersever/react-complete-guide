@@ -3,14 +3,14 @@ import styles from './Cockpit.module.css';
 
 const cockpit = (props) => {
     const toggleBtnRef = useRef(null);
-    toggleBtnRef.current.click();
 
     useEffect(() => {
         console.log('[Cockpit.js] 1st useEffect');
         // HTTP Request
-        setTimeout(() => {
-            alert('Saved data to cloud!');
-        }, 1000);
+        // setTimeout(() => {
+        //     alert('Saved data to cloud!');
+        // }, 1000);
+        toggleBtnRef.current.click();
         return () => {
             console.log('[Cockpit.js] cleanup work in 1st useEffect');
         };
