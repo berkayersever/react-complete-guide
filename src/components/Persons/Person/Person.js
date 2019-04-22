@@ -6,7 +6,7 @@ import styles from './Person.module.css';
 
 class Person extends Component {
     componentDidMount() {
-
+        this.inputElement.focus();
     }
 
     render() {

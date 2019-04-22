@@ -20,8 +20,8 @@
       <file leaf-file-name="Person.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="64" lean-forward="true" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+            <state relative-caret-position="160">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -317,14 +317,7 @@
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
       <workItem from="1555329758596" duration="54000" />
-      <workItem from="1555606902939" duration="21398000" />
-    </task>
-    <task id="LOCAL-00167" summary="Added missing semicolon.">
-      <created>1555617668161</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1555617668161</updated>
+      <workItem from="1555606902939" duration="21458000" />
     </task>
     <task id="LOCAL-00168" summary="Added missing semicolon.">
       <created>1555617677958</created>
@@ -662,11 +655,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555959913468</updated>
     </task>
-    <option name="localTasksCounter" value="224" />
+    <task id="LOCAL-00224" summary="Minor change.">
+      <created>1555960023217</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1555960023217</updated>
+    </task>
+    <option name="localTasksCounter" value="225" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95010000" />
+    <option name="totallyTimeSpent" value="95070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -761,13 +761,13 @@
     <MESSAGE value="Implemented changeCounter." />
     <MESSAGE value="Update package.json and npm install prop-types" />
     <MESSAGE value="Imported PropTypes to Person.js" />
-    <MESSAGE value="Minor change." />
     <MESSAGE value="Implemented Person.propTypes" />
     <MESSAGE value="Changed the age to string. 28 to '28' for testing purposes." />
     <MESSAGE value="Reverted the change." />
     <MESSAGE value="Initialized the componentDidMount method." />
     <MESSAGE value="Refactored the render method." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored the render method." />
+    <MESSAGE value="Minor change." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor change." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.module.css">
@@ -1078,8 +1078,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="64" lean-forward="true" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+        <state relative-caret-position="160">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
