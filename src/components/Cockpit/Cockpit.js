@@ -3,6 +3,7 @@ import styles from './Cockpit.module.css';
 
 const cockpit = (props) => {
     const toggleBtnRef = useRef(null);
+    toggleBtnRef.current.click();
 
     useEffect(() => {
         console.log('[Cockpit.js] 1st useEffect');
