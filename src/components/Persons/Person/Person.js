@@ -5,7 +5,8 @@ import withClass from '../../../hoc/withClass';
 import styles from './Person.module.css';
 
 class Person extends Component {
-    constructor() {
+    constructor(props) {
+        super(props);
         this.inputElementRef = React.createRef();
     }
 
