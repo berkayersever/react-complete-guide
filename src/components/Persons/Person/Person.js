@@ -5,6 +5,10 @@ import withClass from '../../../hoc/withClass';
 import styles from './Person.module.css';
 
 class Person extends Component {
+    componentDidMount() {
+
+    }
+
     render() {
         console.log('[Person.js] is rendering...');
         return (
