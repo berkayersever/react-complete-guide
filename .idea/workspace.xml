@@ -20,8 +20,8 @@
       <file leaf-file-name="Person.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="320">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -317,21 +317,7 @@
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
       <workItem from="1555329758596" duration="54000" />
-      <workItem from="1555606902939" duration="21458000" />
-    </task>
-    <task id="LOCAL-00168" summary="Added missing semicolon.">
-      <created>1555617677958</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1555617677958</updated>
-    </task>
-    <task id="LOCAL-00169" summary="Added missing semicolon.">
-      <created>1555617700401</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1555617700401</updated>
+      <workItem from="1555606902939" duration="21806000" />
     </task>
     <task id="LOCAL-00170" summary="Initialized second useEffect method.">
       <created>1555617804882</created>
@@ -662,11 +648,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555960023217</updated>
     </task>
-    <option name="localTasksCounter" value="225" />
+    <task id="LOCAL-00225" summary="Implemented the componentDidMount method.">
+      <created>1555960073002</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1555960073002</updated>
+    </task>
+    <task id="LOCAL-00226" summary="Minor change.">
+      <created>1555960297951</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1555960297951</updated>
+    </task>
+    <option name="localTasksCounter" value="227" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95070000" />
+    <option name="totallyTimeSpent" value="95418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -742,7 +742,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exported aux." />
     <MESSAGE value="Removed the import statement." />
     <MESSAGE value="Replaced Aux with Fragment." />
     <MESSAGE value="Reverted back to Aux." />
@@ -766,6 +765,7 @@
     <MESSAGE value="Reverted the change." />
     <MESSAGE value="Initialized the componentDidMount method." />
     <MESSAGE value="Refactored the render method." />
+    <MESSAGE value="Implemented the componentDidMount method." />
     <MESSAGE value="Minor change." />
     <option name="LAST_COMMIT_MESSAGE" value="Minor change." />
   </component>
@@ -1078,8 +1078,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="320">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

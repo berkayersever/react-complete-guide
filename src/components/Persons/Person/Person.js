@@ -10,7 +10,8 @@ class Person extends Component {
     }
 
     componentDidMount() {
-        this.inputElement.focus();
+        // this.inputElement.focus();
+        this.inputElementRef.current.focus();
     }
 
     render() {
