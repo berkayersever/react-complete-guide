@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0afaf26-4005-460c-9fdf-c63df0488d5d" name="Default" comment="Imported useContext to Cockpit.js">
+    <list default="true" id="c0afaf26-4005-460c-9fdf-c63df0488d5d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Persons/Person/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Persons/Person/Person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cockpit/Cockpit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cockpit/Cockpit.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -104,11 +104,8 @@
       <file leaf-file-name="Cockpit.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="45" selection-start-column="45" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -331,14 +328,7 @@
       <workItem from="1553891633604" duration="9941000" />
       <workItem from="1554315955238" duration="15107000" />
       <workItem from="1555329758596" duration="54000" />
-      <workItem from="1555606902939" duration="35569000" />
-    </task>
-    <task id="LOCAL-00199" summary="Reverted back to Aux.">
-      <created>1555789370123</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1555789370123</updated>
+      <workItem from="1555606902939" duration="35582000" />
     </task>
     <task id="LOCAL-00200" summary="Deleted the Fragment import.">
       <created>1555789411801</created>
@@ -676,11 +666,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556902399797</updated>
     </task>
-    <option name="localTasksCounter" value="256" />
+    <task id="LOCAL-00256" summary="Minor change.">
+      <created>1556902719232</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1556902719232</updated>
+    </task>
+    <option name="localTasksCounter" value="257" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109181000" />
+    <option name="totallyTimeSpent" value="109194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -770,7 +767,6 @@
     <MESSAGE value="Authentication check in Person.js" />
     <MESSAGE value="Create auth-context.js" />
     <MESSAGE value="Initialized auth-context.js" />
-    <MESSAGE value="Minor change." />
     <MESSAGE value="Imported AuthContext to App.js" />
     <MESSAGE value="Wrapped with AuthContext by using AuthContext.Provider" />
     <MESSAGE value="Minor changes." />
@@ -781,7 +777,8 @@
     <MESSAGE value="Removed the loginHandler from App.js" />
     <MESSAGE value="Initialized static contextType." />
     <MESSAGE value="Added a console.log() statement." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a console.log() statement." />
+    <MESSAGE value="Minor change." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor change." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/containers/App.module.css">
@@ -802,9 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1092,11 +1086,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
         </state>
       </provider>
     </entry>
