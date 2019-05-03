@@ -6,6 +6,8 @@ const cockpit = (props) => {
     const toggleBtnRef = useRef(null);
     const authContext = useContext(AuthContext);
 
+    console.log(authContext.authenticated);
+
     useEffect(() => {
         console.log('[Cockpit.js] 1st useEffect');
         // HTTP Request
