@@ -45,9 +45,7 @@ const cockpit = (props) => {
             <h1>{props.title}</h1>
             <p className={classes.join(' ')}>This is really working!</p>
             <button ref={toggleBtnRef} className={btnClass} onClick={props.clicked}>Toggle Persons</button>
-            <AuthContext.Consumer>
-                {context => <button onClick={context.login}>Login</button>}
-            </AuthContext.Consumer>
+            <button onClick={authContext.login}>Login</button>
         </div>
     );
 };
